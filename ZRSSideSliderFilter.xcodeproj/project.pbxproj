@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5861D911DF4F56B000036DD /* ZRSSideSlipBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5861D901DF4F56B000036DD /* ZRSSideSlipBaseTableViewCell.m */; };
+		E5861D981DF51191000036DD /* ZRSSideFilterCommenItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5861D971DF51191000036DD /* ZRSSideFilterCommenItemModel.m */; };
+		E5861D9C1DF511D7000036DD /* ZRSSideFilterBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5861D9B1DF511D7000036DD /* ZRSSideFilterBaseCollectionViewCell.m */; };
+		E5861DA21DF5124D000036DD /* ZRSSideFilterCommonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5861DA11DF5124D000036DD /* ZRSSideFilterCommonCollectionViewCell.m */; };
+		E5861DA41DF51260000036DD /* ZRSSideFilterCommonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5861DA31DF51260000036DD /* ZRSSideFilterCommonCollectionViewCell.xib */; };
+		E5861DA81DF51604000036DD /* ZRSSideSlipCommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5861DA71DF51604000036DD /* ZRSSideSlipCommonTableViewCell.m */; };
+		E5861DAB1DF516CD000036DD /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E5861DAA1DF516CD000036DD /* UIView+Utils.m */; };
+		E5861DAD1DF516D2000036DD /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E5861DAC1DF516D2000036DD /* NSString+Utils.m */; };
+		E5861DB01DF51737000036DD /* ZRSSideSlipCommonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5861DAF1DF51737000036DD /* ZRSSideSlipCommonTableViewCell.xib */; };
+		E5A266871DF15D78007508AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A266861DF15D78007508AC /* main.m */; };
+		E5A2668A1DF15D78007508AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A266891DF15D78007508AC /* AppDelegate.m */; };
+		E5A2668D1DF15D78007508AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A2668C1DF15D78007508AC /* ViewController.m */; };
+		E5A266901DF15D78007508AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A2668E1DF15D78007508AC /* Main.storyboard */; };
+		E5A266921DF15D78007508AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A266911DF15D78007508AC /* Assets.xcassets */; };
+		E5A266951DF15D78007508AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A266931DF15D78007508AC /* LaunchScreen.storyboard */; };
+		E5A266A01DF15D78007508AC /* ZRSSideSliderFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A2669F1DF15D78007508AC /* ZRSSideSliderFilterTests.m */; };
+		E5A266AB1DF15D78007508AC /* ZRSSideSliderFilterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A266AA1DF15D78007508AC /* ZRSSideSliderFilterUITests.m */; };
+		E5A266BC1DF162B6007508AC /* ZRSSideSlipFilterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A266BB1DF162B6007508AC /* ZRSSideSlipFilterConfig.m */; };
+		E5A266C01DF166CD007508AC /* ZRSSideSlipFilterRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A266BF1DF166CD007508AC /* ZRSSideSlipFilterRegionModel.m */; };
+		E5A266C41DF1676C007508AC /* ZRSSideSlipFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A266C31DF1676C007508AC /* ZRSSideSlipFilterController.m */; };
+		E5A266C81DF16F05007508AC /* UIColor+hexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A266C71DF16F05007508AC /* UIColor+hexColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5A2669C1DF15D78007508AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5A2667A1DF15D78007508AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5A266811DF15D78007508AC;
+			remoteInfo = ZRSSideSliderFilter;
+		};
+		E5A266A71DF15D78007508AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5A2667A1DF15D78007508AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5A266811DF15D78007508AC;
+			remoteInfo = ZRSSideSliderFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5861D8F1DF4F56B000036DD /* ZRSSideSlipBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSSideSlipBaseTableViewCell.h; sourceTree = "<group>"; };
+		E5861D901DF4F56B000036DD /* ZRSSideSlipBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSSideSlipBaseTableViewCell.m; sourceTree = "<group>"; };
+		E5861D961DF51191000036DD /* ZRSSideFilterCommenItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSSideFilterCommenItemModel.h; sourceTree = "<group>"; };
+		E5861D971DF51191000036DD /* ZRSSideFilterCommenItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSSideFilterCommenItemModel.m; sourceTree = "<group>"; };
+		E5861D9A1DF511D7000036DD /* ZRSSideFilterBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSSideFilterBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		E5861D9B1DF511D7000036DD /* ZRSSideFilterBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSSideFilterBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		E5861DA01DF5124D000036DD /* ZRSSideFilterCommonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSSideFilterCommonCollectionViewCell.h; sourceTree = "<group>"; };
+		E5861DA11DF5124D000036DD /* ZRSSideFilterCommonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSSideFilterCommonCollectionViewCell.m; sourceTree = "<group>"; };
+		E5861DA31DF51260000036DD /* ZRSSideFilterCommonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZRSSideFilterCommonCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5861DA61DF51604000036DD /* ZRSSideSlipCommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSSideSlipCommonTableViewCell.h; sourceTree = "<group>"; };
+		E5861DA71DF51604000036DD /* ZRSSideSlipCommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSSideSlipCommonTableViewCell.m; sourceTree = "<group>"; };
+		E5861DA91DF516CD000036DD /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		E5861DAA1DF516CD000036DD /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		E5861DAC1DF516D2000036DD /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		E5861DAE1DF516D5000036DD /* NSString+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		E5861DAF1DF51737000036DD /* ZRSSideSlipCommonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZRSSideSlipCommonTableViewCell.xib; sourceTree = "<group>"; };
+		E5A266821DF15D78007508AC /* ZRSSideSliderFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRSSideSliderFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A266861DF15D78007508AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5A266881DF15D78007508AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5A266891DF15D78007508AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5A2668B1DF15D78007508AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E5A2668C1DF15D78007508AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5A2668F1DF15D78007508AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5A266911DF15D78007508AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5A266941DF15D78007508AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5A266961DF15D78007508AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A2669B1DF15D78007508AC /* ZRSSideSliderFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRSSideSliderFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A2669F1DF15D78007508AC /* ZRSSideSliderFilterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRSSideSliderFilterTests.m; sourceTree = "<group>"; };
+		E5A266A11DF15D78007508AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A266A61DF15D78007508AC /* ZRSSideSliderFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRSSideSliderFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A266AA1DF15D78007508AC /* ZRSSideSliderFilterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRSSideSliderFilterUITests.m; sourceTree = "<group>"; };
+		E5A266AC1DF15D78007508AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A266BA1DF162B6007508AC /* ZRSSideSlipFilterConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSSideSlipFilterConfig.h; sourceTree = "<group>"; };
+		E5A266BB1DF162B6007508AC /* ZRSSideSlipFilterConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSSideSlipFilterConfig.m; sourceTree = "<group>"; };
+		E5A266BE1DF166CD007508AC /* ZRSSideSlipFilterRegionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSSideSlipFilterRegionModel.h; sourceTree = "<group>"; };
+		E5A266BF1DF166CD007508AC /* ZRSSideSlipFilterRegionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSSideSlipFilterRegionModel.m; sourceTree = "<group>"; };
+		E5A266C21DF1676C007508AC /* ZRSSideSlipFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSSideSlipFilterController.h; sourceTree = "<group>"; };
+		E5A266C31DF1676C007508AC /* ZRSSideSlipFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSSideSlipFilterController.m; sourceTree = "<group>"; };
+		E5A266C61DF16F05007508AC /* UIColor+hexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexColor.h"; sourceTree = "<group>"; };
+		E5A266C71DF16F05007508AC /* UIColor+hexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5A2667F1DF15D78007508AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A266981DF15D78007508AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A266A31DF15D78007508AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5861D8D1DF4F539000036DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5861D8E1DF4F549000036DD /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5861D8E1DF4F549000036DD /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E5861D8F1DF4F56B000036DD /* ZRSSideSlipBaseTableViewCell.h */,
+				E5861D901DF4F56B000036DD /* ZRSSideSlipBaseTableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E5861D921DF51125000036DD /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				E5861D951DF5114A000036DD /* View */,
+				E5861D941DF51144000036DD /* Model */,
+				E5861D931DF5113A000036DD /* Controller */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		E5861D931DF5113A000036DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5861D941DF51144000036DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5861D961DF51191000036DD /* ZRSSideFilterCommenItemModel.h */,
+				E5861D971DF51191000036DD /* ZRSSideFilterCommenItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5861D951DF5114A000036DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5861DA51DF513BC000036DD /* TableViewCell */,
+				E5861D991DF511B4000036DD /* CollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5861D991DF511B4000036DD /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E5861D9A1DF511D7000036DD /* ZRSSideFilterBaseCollectionViewCell.h */,
+				E5861D9B1DF511D7000036DD /* ZRSSideFilterBaseCollectionViewCell.m */,
+				E5861DA01DF5124D000036DD /* ZRSSideFilterCommonCollectionViewCell.h */,
+				E5861DA11DF5124D000036DD /* ZRSSideFilterCommonCollectionViewCell.m */,
+				E5861DA31DF51260000036DD /* ZRSSideFilterCommonCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E5861DA51DF513BC000036DD /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E5861DA61DF51604000036DD /* ZRSSideSlipCommonTableViewCell.h */,
+				E5861DA71DF51604000036DD /* ZRSSideSlipCommonTableViewCell.m */,
+				E5861DAF1DF51737000036DD /* ZRSSideSlipCommonTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E5A266791DF15D78007508AC = {
+			isa = PBXGroup;
+			children = (
+				E5A266841DF15D78007508AC /* ZRSSideSliderFilter */,
+				E5A2669E1DF15D78007508AC /* ZRSSideSliderFilterTests */,
+				E5A266A91DF15D78007508AC /* ZRSSideSliderFilterUITests */,
+				E5A266831DF15D78007508AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5A266831DF15D78007508AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5A266821DF15D78007508AC /* ZRSSideSliderFilter.app */,
+				E5A2669B1DF15D78007508AC /* ZRSSideSliderFilterTests.xctest */,
+				E5A266A61DF15D78007508AC /* ZRSSideSliderFilterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5A266841DF15D78007508AC /* ZRSSideSliderFilter */ = {
+			isa = PBXGroup;
+			children = (
+				E5A266B81DF15D98007508AC /* Classes */,
+				E5861D921DF51125000036DD /* CustomClass */,
+				E5A266881DF15D78007508AC /* AppDelegate.h */,
+				E5A266891DF15D78007508AC /* AppDelegate.m */,
+				E5A2668B1DF15D78007508AC /* ViewController.h */,
+				E5A2668C1DF15D78007508AC /* ViewController.m */,
+				E5A2668E1DF15D78007508AC /* Main.storyboard */,
+				E5A266911DF15D78007508AC /* Assets.xcassets */,
+				E5A266931DF15D78007508AC /* LaunchScreen.storyboard */,
+				E5A266961DF15D78007508AC /* Info.plist */,
+				E5A266851DF15D78007508AC /* Supporting Files */,
+			);
+			path = ZRSSideSliderFilter;
+			sourceTree = "<group>";
+		};
+		E5A266851DF15D78007508AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5A266861DF15D78007508AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5A2669E1DF15D78007508AC /* ZRSSideSliderFilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5A2669F1DF15D78007508AC /* ZRSSideSliderFilterTests.m */,
+				E5A266A11DF15D78007508AC /* Info.plist */,
+			);
+			path = ZRSSideSliderFilterTests;
+			sourceTree = "<group>";
+		};
+		E5A266A91DF15D78007508AC /* ZRSSideSliderFilterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5A266AA1DF15D78007508AC /* ZRSSideSliderFilterUITests.m */,
+				E5A266AC1DF15D78007508AC /* Info.plist */,
+			);
+			path = ZRSSideSliderFilterUITests;
+			sourceTree = "<group>";
+		};
+		E5A266B81DF15D98007508AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5861D8D1DF4F539000036DD /* View */,
+				E5A266C51DF16EDF007508AC /* Utils */,
+				E5A266B91DF1627E007508AC /* Config */,
+				E5A266BD1DF166B7007508AC /* Model */,
+				E5A266C11DF1674B007508AC /* Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E5A266B91DF1627E007508AC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E5A266BA1DF162B6007508AC /* ZRSSideSlipFilterConfig.h */,
+				E5A266BB1DF162B6007508AC /* ZRSSideSlipFilterConfig.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E5A266BD1DF166B7007508AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5A266BE1DF166CD007508AC /* ZRSSideSlipFilterRegionModel.h */,
+				E5A266BF1DF166CD007508AC /* ZRSSideSlipFilterRegionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5A266C11DF1674B007508AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5A266C21DF1676C007508AC /* ZRSSideSlipFilterController.h */,
+				E5A266C31DF1676C007508AC /* ZRSSideSlipFilterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5A266C51DF16EDF007508AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E5861DAE1DF516D5000036DD /* NSString+Utils.h */,
+				E5861DAC1DF516D2000036DD /* NSString+Utils.m */,
+				E5861DA91DF516CD000036DD /* UIView+Utils.h */,
+				E5861DAA1DF516CD000036DD /* UIView+Utils.m */,
+				E5A266C61DF16F05007508AC /* UIColor+hexColor.h */,
+				E5A266C71DF16F05007508AC /* UIColor+hexColor.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5A266811DF15D78007508AC /* ZRSSideSliderFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A266AF1DF15D78007508AC /* Build configuration list for PBXNativeTarget "ZRSSideSliderFilter" */;
+			buildPhases = (
+				E5A2667E1DF15D78007508AC /* Sources */,
+				E5A2667F1DF15D78007508AC /* Frameworks */,
+				E5A266801DF15D78007508AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRSSideSliderFilter;
+			productName = ZRSSideSliderFilter;
+			productReference = E5A266821DF15D78007508AC /* ZRSSideSliderFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5A2669A1DF15D78007508AC /* ZRSSideSliderFilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A266B21DF15D78007508AC /* Build configuration list for PBXNativeTarget "ZRSSideSliderFilterTests" */;
+			buildPhases = (
+				E5A266971DF15D78007508AC /* Sources */,
+				E5A266981DF15D78007508AC /* Frameworks */,
+				E5A266991DF15D78007508AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5A2669D1DF15D78007508AC /* PBXTargetDependency */,
+			);
+			name = ZRSSideSliderFilterTests;
+			productName = ZRSSideSliderFilterTests;
+			productReference = E5A2669B1DF15D78007508AC /* ZRSSideSliderFilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5A266A51DF15D78007508AC /* ZRSSideSliderFilterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A266B51DF15D78007508AC /* Build configuration list for PBXNativeTarget "ZRSSideSliderFilterUITests" */;
+			buildPhases = (
+				E5A266A21DF15D78007508AC /* Sources */,
+				E5A266A31DF15D78007508AC /* Frameworks */,
+				E5A266A41DF15D78007508AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5A266A81DF15D78007508AC /* PBXTargetDependency */,
+			);
+			name = ZRSSideSliderFilterUITests;
+			productName = ZRSSideSliderFilterUITests;
+			productReference = E5A266A61DF15D78007508AC /* ZRSSideSliderFilterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5A2667A1DF15D78007508AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ZRS;
+				TargetAttributes = {
+					E5A266811DF15D78007508AC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E5A2669A1DF15D78007508AC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5A266811DF15D78007508AC;
+					};
+					E5A266A51DF15D78007508AC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5A266811DF15D78007508AC;
+					};
+				};
+			};
+			buildConfigurationList = E5A2667D1DF15D78007508AC /* Build configuration list for PBXProject "ZRSSideSliderFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5A266791DF15D78007508AC;
+			productRefGroup = E5A266831DF15D78007508AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5A266811DF15D78007508AC /* ZRSSideSliderFilter */,
+				E5A2669A1DF15D78007508AC /* ZRSSideSliderFilterTests */,
+				E5A266A51DF15D78007508AC /* ZRSSideSliderFilterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5A266801DF15D78007508AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5861DB01DF51737000036DD /* ZRSSideSlipCommonTableViewCell.xib in Resources */,
+				E5A266951DF15D78007508AC /* LaunchScreen.storyboard in Resources */,
+				E5861DA41DF51260000036DD /* ZRSSideFilterCommonCollectionViewCell.xib in Resources */,
+				E5A266921DF15D78007508AC /* Assets.xcassets in Resources */,
+				E5A266901DF15D78007508AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A266991DF15D78007508AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A266A41DF15D78007508AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5A2667E1DF15D78007508AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5861DAB1DF516CD000036DD /* UIView+Utils.m in Sources */,
+				E5861D9C1DF511D7000036DD /* ZRSSideFilterBaseCollectionViewCell.m in Sources */,
+				E5861D981DF51191000036DD /* ZRSSideFilterCommenItemModel.m in Sources */,
+				E5A266C81DF16F05007508AC /* UIColor+hexColor.m in Sources */,
+				E5A266BC1DF162B6007508AC /* ZRSSideSlipFilterConfig.m in Sources */,
+				E5A2668D1DF15D78007508AC /* ViewController.m in Sources */,
+				E5861D911DF4F56B000036DD /* ZRSSideSlipBaseTableViewCell.m in Sources */,
+				E5A266C41DF1676C007508AC /* ZRSSideSlipFilterController.m in Sources */,
+				E5A266C01DF166CD007508AC /* ZRSSideSlipFilterRegionModel.m in Sources */,
+				E5861DA21DF5124D000036DD /* ZRSSideFilterCommonCollectionViewCell.m in Sources */,
+				E5A2668A1DF15D78007508AC /* AppDelegate.m in Sources */,
+				E5861DA81DF51604000036DD /* ZRSSideSlipCommonTableViewCell.m in Sources */,
+				E5A266871DF15D78007508AC /* main.m in Sources */,
+				E5861DAD1DF516D2000036DD /* NSString+Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A266971DF15D78007508AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A266A01DF15D78007508AC /* ZRSSideSliderFilterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A266A21DF15D78007508AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A266AB1DF15D78007508AC /* ZRSSideSliderFilterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5A2669D1DF15D78007508AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5A266811DF15D78007508AC /* ZRSSideSliderFilter */;
+			targetProxy = E5A2669C1DF15D78007508AC /* PBXContainerItemProxy */;
+		};
+		E5A266A81DF15D78007508AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5A266811DF15D78007508AC /* ZRSSideSliderFilter */;
+			targetProxy = E5A266A71DF15D78007508AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5A2668E1DF15D78007508AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A2668F1DF15D78007508AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5A266931DF15D78007508AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A266941DF15D78007508AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5A266AD1DF15D78007508AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5A266AE1DF15D78007508AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5A266B01DF15D78007508AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZRSSideSliderFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSSideSliderFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5A266B11DF15D78007508AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZRSSideSliderFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSSideSliderFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E5A266B31DF15D78007508AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZRSSideSliderFilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSSideSliderFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZRSSideSliderFilter.app/ZRSSideSliderFilter";
+			};
+			name = Debug;
+		};
+		E5A266B41DF15D78007508AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZRSSideSliderFilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSSideSliderFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZRSSideSliderFilter.app/ZRSSideSliderFilter";
+			};
+			name = Release;
+		};
+		E5A266B61DF15D78007508AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZRSSideSliderFilterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSSideSliderFilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZRSSideSliderFilter;
+			};
+			name = Debug;
+		};
+		E5A266B71DF15D78007508AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZRSSideSliderFilterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSSideSliderFilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZRSSideSliderFilter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5A2667D1DF15D78007508AC /* Build configuration list for PBXProject "ZRSSideSliderFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A266AD1DF15D78007508AC /* Debug */,
+				E5A266AE1DF15D78007508AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A266AF1DF15D78007508AC /* Build configuration list for PBXNativeTarget "ZRSSideSliderFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A266B01DF15D78007508AC /* Debug */,
+				E5A266B11DF15D78007508AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A266B21DF15D78007508AC /* Build configuration list for PBXNativeTarget "ZRSSideSliderFilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A266B31DF15D78007508AC /* Debug */,
+				E5A266B41DF15D78007508AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A266B51DF15D78007508AC /* Build configuration list for PBXNativeTarget "ZRSSideSliderFilterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A266B61DF15D78007508AC /* Debug */,
+				E5A266B71DF15D78007508AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5A2667A1DF15D78007508AC /* Project object */;
+}
